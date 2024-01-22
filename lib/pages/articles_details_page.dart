@@ -58,7 +58,7 @@ class ArticlePage extends StatelessWidget {
               height: 8.0,
             ),
             Text(
-              article.description,
+              article.description ?? "No description available",
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 fontSize: 16.0,

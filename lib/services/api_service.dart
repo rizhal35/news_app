@@ -22,7 +22,7 @@ class ApiService {
 
   Future<List<Article>> getArticleSports() async {
     final queryParameters = {
-      'country': 'id',
+      'country': 'us',
       'category': 'sports',
       'apiKey': 'fd1cdab5ed5045568a2d17422a378114'
     };
